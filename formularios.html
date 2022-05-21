@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+
+<body>
+
+    <form>
+        <fieldset style="background-color:LightGray;">
+
+            <legend>Dados Pessoais</legend>
+            <label for="fname">Nome:</label><br>
+            <input type="text" id="fname" name="fname">
+            <br>
+            <label for="dd/mm/aaaa">Data de Nascimento:</label><br>
+            <input type="text" id="dd/mm/aaaa" placeholder="dd/mm/aaaa ">
+            <br>
+            <label for="jname">E-mail:</label><br>
+            <input type="text" id="jname" placeholder="________@_________ ">
+            <br>
+            <label for="jname">Telefone:</label><br>
+            <input type="text" id="jname" placeholder="(DDD)_____-_________ ">
+        </fieldset>
+        <br>
+    </form>
+
+    <form>
+        <fieldset style="background-color:LightGray;">
+            <legend>Dados Acadêmicos</legend>
+            <label for="Curso">Curso:</label>
+            <select name="Curso" lang="pt">
+                <option value="">Selecione o curso</option>
+                <option value="ads">Análise e Desenvolvimento de Sistemas</option>
+                <option value="gti">Gestão de Tecnologia da Informação</option>
+                <option value="cic">Ciência da Computação</option>
+                <option value="sif">Segurança da Informação</option>
+                <option value="mkt">Marketing Digital</option>
+                <option value="gec">Gestão Comercial</option>
+                <option value="ger">Gestão de Recursos</option>
+                <option value="gcd">Gestão da Comunicação Digital</option>
+            </select>
+            <br>
+            <input type="radio" id="1 Semestre" name="fav_language" value="1 Semestre">
+            <label for="1 Semestre">1 Semestre</label>
+            <br>
+            <input type="radio" id="2 Semestre" name="fav_language" value="2 Semestre">
+            <label for="2 Semestre">2 Semestre</label>
+            <br>
+            <input type="radio" id="3 Semestre" name="fav_language" value="3 Semestre">
+            <label for="3 Semestre">3 Semestre</label>
+            <br>
+            <input type="radio" id="4 Semestre" name="fav_language" value="4 Semestre">
+            <label for="4 Semestre">4 Semestre</label>
+            <br>
+            <input type="radio" id="5 Semestre" name="fav_language" value="5 Semestre">
+            <label for="5 Semestre">5 Semestre</label>
+            <br>
+        </fieldset>
+        <br>
+    </form>
+
+    <form>
+        <fieldset style="background-color:LightGray;">
+            <label for="vehicle1"> Trabalha</label>
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="">
+            <br>
+            <label for="vehicle2"> Local de Trabalho</label>
+            <input text="area" id="vehicle2" name="vehicle2" value="">
+            <br>
+            <div>
+                <p>Descreva sua Experiência</p>
+
+                <textarea>
+            </textarea>
+            </div>
+        </fieldset>
+        <h2>
+            <input type="submit" id="Enviar" value="Enviar" />
+            <input type="submit" id="Limpar" value="Limpar" />
+        </h2>
+    </form>
+</body>
+
+</html>
